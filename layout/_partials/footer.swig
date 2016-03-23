@@ -6,6 +6,9 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+  {% if theme.translateToTw %}
+  <span><a id="translateLink" href="javascript:translatePage();">繁體中文</a></span>
+  {%endif %}
 </div>
 
 <div class="powered-by">
