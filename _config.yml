@@ -3,10 +3,10 @@
 # ---------------------------------------------------------------
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Develop, Some personal notes, Text from thinking"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -57,9 +57,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 
@@ -72,6 +72,11 @@ scheme: Muse
 # social:
   #GitHub:
   #Others:
+social:
+  GitHub: http://github.com/zoorz
+  About: http://about.me/zozorz
+  Weibo: http://weibo.com/crazybd
+  Email: mailto:zeallean5@gmail.com
 
 # Social Icons
 social_icons:
@@ -80,13 +85,15 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  About: user
+  Email: envelope
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-#avatar:
+avatar: /favicon.png
 
 
 # TOC in the Sidebar
@@ -102,6 +109,7 @@ toc:
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
 #creative_commons:
+creative_commons: by-nc-sa
 
 sidebar:
   # Sidebar Position, available value: left | right
@@ -145,7 +153,7 @@ scroll_to_more: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Use Lato font
@@ -162,13 +170,13 @@ mathjax:
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: Bqsum_3DixBwxYR7Wy8t
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 6bca93bf8dc8b19f51764c52413c28d4
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: zouzhi
 
 # Disqus
 #disqus_shortname:
@@ -204,33 +212,35 @@ mathjax:
 duoshuo_info:
   ua_enable: true
   admin_enable: false
-  user_id: 0
+  user_id: 0 #'zouzhi'
   #admin_nickname: ROOT
 
+# 多说热评文章 true 或者 false
+duoshuo_hotartical: true
 
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable: false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: true
+  app_id: 1699544160331138      #<app_id>
+  fb_admin: zoechow8@gmail.com    #<user_id>
+  like_button:  true
+  webmaster:    true
 
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: BjI5dsUdy5c8qm2aXjkv2aq7-gzGzoHsz#<app_id>
+  app_key: 6edqDcmsLHHHGTWopasew7Ur#<app_key>
 
 
 # Tencent analytics ID
 # tencent_analytics:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 
 
