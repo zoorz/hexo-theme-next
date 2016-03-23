@@ -16,8 +16,8 @@ rss:
 # Specify the date when the site was setup
 since: 2015
 
-
-
+# Support the zh-CN to zh-tw 
+translateToTw: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -157,7 +157,7 @@ auto_excerpt:
   length: 150
 
 # Use Lato font
-use_font_lato: true
+use_font_lato: false
 
 
 
@@ -200,7 +200,7 @@ duoshuo_shortname: zouzhi
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-68819139-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -212,8 +212,8 @@ duoshuo_shortname: zouzhi
 duoshuo_info:
   ua_enable: true
   admin_enable: false
-  user_id: 0 #'zouzhi'
-  #admin_nickname: ROOT
+  user_id: 6120236
+  #admin_nickname: Author
 
 # 多说热评文章 true 或者 false
 duoshuo_hotartical: true
